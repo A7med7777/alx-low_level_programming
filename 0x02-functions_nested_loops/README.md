@@ -6,3 +6,4 @@
 <br>5-sign.c: a function that prints the sign of a number.
 <br>6-abs.c: a function that computes the absolute value of an integer.
 <br>7-print_last_digit.c: a function that prints the last digit of a number.
+<br>8-24_hours.c: a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
