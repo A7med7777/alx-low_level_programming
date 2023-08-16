@@ -11,3 +11,4 @@
 <br>10-add.c: a function that adds two integers and returns the result.
 <br>11-print_to_98.c: a function that prints all natural numbers from n to 98, followed by a new line.
 <br>100-times_table.c: a function that prints the n times table, starting with 0.
+<br>101-natural.c: a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
