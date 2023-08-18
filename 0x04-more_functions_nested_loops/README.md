@@ -9,3 +9,4 @@
 <br>8-print_square.c: a function that prints a square, followed by a new line.
 <br>10-print_triangle.c: a function that prints a triangle, followed by a new line.
 <br>9-fizz_buzz.c: a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+<br>100-prime_factor.c:  a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
