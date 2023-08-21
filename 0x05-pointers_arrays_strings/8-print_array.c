@@ -1,10 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_array - prints n elements of an array of integers,
- * followed by a new line
- * @a: a pointer to an array of integers
- * @n: the number of elements of the array to be printed
+ * print_array - prints n elements of an array of integers
+ * @a: pointer to the array
+ * @n: number of elements to print
  */
 void print_array(int *a, int n)
 {
@@ -15,9 +15,7 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 
 		if (i < n - 1)
-		{
 			printf(", ");
-		}
 	}
 
 	printf("\n");
