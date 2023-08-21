@@ -5,3 +5,4 @@
 <br>4-print_rev.c: a function that prints a string, in reverse, followed by a new line.
 <br>5-rev_string.c: a function that reverses a string. 
 <br>6-puts2.c: a function that prints every other character of a string, starting with the first character, followed by a new line.
+<br>7-puts_half.c: a function that prints half of a string, followed by a new line.
