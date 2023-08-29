@@ -5,3 +5,4 @@
 <br>4-strpbrk.c: a function that searches a string for any of a set of bytes.
 <br>5-strstr.c: a function that locates a substring.
 <br>7-print_chessboard.c: a function that prints the chessboard.
+<br>8-print_diagsums.c: a function that prints the sum of the two diagonals of a square matrix of integers.
