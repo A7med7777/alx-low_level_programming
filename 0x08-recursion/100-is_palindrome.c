@@ -8,37 +8,38 @@
  */
 int is_palindrome(char *s)
 {
-	char *end = s;
+	int len = _strlen_recursion(s);
 
-	while (*end != '\0')
-	{
-		end++;
-	}
-	end--;
-
-	return (palindrome_helper(s, end));
-}
-
-/**
- * palindrome_helper - helper function for is_palindrome
- * @start: pointer to the start of the string
- * @end: pointer to the end of the string
- *
- * Return: 1 if s is a palindrome, 0 otherwise
- */
-int palindrome_helper(char *start, char *end)
-{
-	if (start >= end)
+	if (len <= 1)
 	{
 		return (1);
 	}
-	else if (*start != *end)
+	else if (*s != *(s + len - 1))
 	{
 		return (0);
 	}
 	else
 	{
-		return (palindrome_helper(start + 1, end - 1));
+		*(s + len - 1) = '\0';
+		return (is_palindrome(s + 1));
+	}
+}
+
+/**
+ * _strlen_recursion - returns the length of a string
+ * @s: pointer to the string to measure
+ *
+ * Return: length of the string
+ */
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+	{
+		return (0);
+	}
+	else
+	{
+		return (1 + _strlen_recursion(s + 1));
 	}
 }
 
