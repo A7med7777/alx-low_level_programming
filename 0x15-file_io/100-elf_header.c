@@ -12,7 +12,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd;
+	int fd, i;
 	ssize_t n_read;
 	Elf64_Ehdr ehdr;
 	char *file;
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 
 	printf("ELF Header:\n");
 	printf("  Magic:   ");
-	for (int i = 0; i < EI_NIDENT; i++)
+	for (i = 0; i < EI_NIDENT; i++)
 		printf("%02x ", ehdr.e_ident[i]);
 	printf("\n");
 
